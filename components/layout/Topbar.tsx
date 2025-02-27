@@ -14,7 +14,7 @@ const Topbar = () => {
           <span>025-565270</span>
         </span>
       </div>
-      <p className="flex space-x-2 items-center font-semibold">
+      <div className="flex space-x-2 items-center font-semibold">
         <p>Follow Us on:</p>
         <div className="space-x-1 flex items-center text-lg">
           <Link href="#">
@@ -27,7 +27,7 @@ const Topbar = () => {
             <FaYoutube />
           </Link>
         </div>
-      </p>
+      </div>
     </div>
   );
 };
