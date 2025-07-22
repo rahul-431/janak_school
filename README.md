@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ✅ Pull Request Review Checklist
 
-## Getting Started
+> _Use this checklist to ensure the PR is complete and meets quality standards. Reviewers can check items during review._
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📌 PR Information
+- [ ] PR title is clear and descriptive.
+- [ ] PR description includes:
+  - [ ] Problem statement.
+  - [ ] Summary of the solution.
+  - [ ] Related issue/ticket (if applicable).
+- [ ] PR is scoped to a single concern (not too large).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🧩 Code Quality
+- [ ] Code is easy to understand and self-explanatory.
+- [ ] Function and variable names are meaningful.
+- [ ] No redundant, commented, or dead code.
+- [ ] Code is modular and follows separation of concerns.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🎨 Code Style & Consistency
+- [ ] Follows project linting and formatting rules.
+- [ ] Consistent naming, spacing, and structure.
+- [ ] Code style matches existing codebase.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🔒 Security
+- [ ] Inputs are validated and sanitized.
+- [ ] No sensitive data (tokens, credentials) committed.
+- [ ] No information leaks in logs or error messages.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🚀 Functionality
+- [ ] Code works as intended and solves the issue.
+- [ ] Handles edge cases and failures gracefully.
+- [ ] Tested manually or in staging (if applicable).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🧪 Testing
+- [ ] New features or fixes include relevant tests.
+- [ ] Existing tests pass (CI green).
+- [ ] Tests cover both success and failure cases.
+
+---
+
+## 📖 Documentation
+- [ ] Comments explain non-obvious logic.
+- [ ] Public methods/components are documented.
+- [ ] README/docs updated if necessary.
+
+---
+
+## 📂 Architecture & Dependencies
+- [ ] Follows folder/module conventions.
+- [ ] No unused or unnecessary dependencies added.
+- [ ] Design decisions are explained if not obvious.
+
+---
+
+## 🔁 Merge Readiness
+- [ ] All conflicts resolved.
+- [ ] Clean Git history (rebased/squashed if needed).
+- [ ] Ready to merge into base branch.
+
+---
+
+## 📝 Optional Review Tags
+
+| Tag             | Description                                    |
+|------------------|------------------------------------------------|
+| 🔧 Needs changes | Critical issues found                          |
+| 🆗 Looks good     | Meets expectations                             |
+| ❓ Needs context | Needs clarification or more information       |
+| 🚫 Block merge   | Code introduces bugs or risks, do not merge    |
+
+---
+
+_Thanks for contributing!_
